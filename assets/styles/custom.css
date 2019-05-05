@@ -1,0 +1,256 @@
+/** 
+ * custom card style 
+*/
+
+.custom-card-content {
+  background: white;
+  color: black;
+}
+
+.custom-card-img {
+  width: 100%;
+}
+
+
+/**
+* Custom CSS Classes 
+*/ 
+
+.sr-only {
+	position: absolute;
+	left: -100000cm;
+}
+
+#contactBg {
+	background-color:#F8F9FA; 
+	position: center;
+	width: auto;
+	border-radius: 2rem;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+	
+}
+
+input[type=submit] {
+    background-color:#1a6a81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: 'Didact Gothic';
+    font-size: 25px;
+    font-weight: bold; 
+}
+
+.contactForm {
+  border-radius: 5px;
+  padding: 20px;
+	text-align: left;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.textBox {
+  position: absolute;
+  float: right;
+   
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.headerImg {
+  left: 20;
+  top: 45%;
+  width: 100%;
+  }
+
+.mobileNav1 {
+  left: 20;
+  top: 60%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+
+}
+
+.mobileNav2 {
+  left: 20;
+  top: 70%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+}
+
+
+
+/**
+* Custom Social Media CSS
+*/ 
+
+.social {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 100%;
+  margin:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fb {
+  color:white;
+}
+
+.tw {
+  color:white;
+}
+
+.ig {
+ color:white;
+}
+
+/**
+* Custom CSS logos 
+*/ 
+
+.imgLogo {
+    width: 100%;
+  }
+
+.mobileImg {
+  width: 80%;
+  }
+
+.logo {
+  width: 100%;
+}
+
+.logoMobile {
+    width: 100%;
+  }
+
+/**
+* Image Eraser 
+*/ 
+
+.cont {
+    position: relative;
+    
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 533px;
+    height: 500px;
+}
+
+#robot {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width:100%;
+    /*-webkit-box-shadow: 0px 0px 20px 0px #707070;
+    -moz-box-shadow: 0px 0px 20px 0px #707070;
+    box-shadow: 0px 0px 20px 0px #707070;*/
+}
+#redux {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width:100%;
+}
+
+#progress {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    color: black;
+    pointer-events: none;
+    z-index: 3;
+    text-shadow: 0px 0px 2px #FFFFFF;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  
+  .custom-card-content {
+    background: transparent;
+    color: white;
+  }
+  
+  .custom-card-img {
+    width: auto;
+  }
+  
+  .custom-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .custom-grid:nth-child(even) {
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .custom-grid:nth-child(even) > .custom-card-content  {
+    order: 1;
+  }
+  
+  .custom-grid:nth-child(even) > .custom-card-img  {
+    order: 2;
+  }
+
+  .imgLogo {
+      width: 100%;
+  }
+
+  .logo {
+  width: 100%;
+  }
+
+  .headerImg {
+    left: 20;
+    top: 25%;
+    width: 100%;
+  }
+
+  .portfolio {
+    left: 20;
+  top: 70%;
+  width: 100%;
+  }
+
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 900px) {
+  .headerImg {
+    left: 20;
+    top: 18%;
+    width: 100%;
+  }
+
+  }
