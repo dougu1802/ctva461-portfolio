@@ -60,6 +60,13 @@ h1 {
     font-weight: bold; 
 }
 
+h2 {
+    font-family: 'Didact Gothic';
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 5rem;
+}
+
 .contactForm {
   border-radius: 5px;
   padding: 20px;
@@ -100,6 +107,12 @@ a:link {
   width: 100%;
   font-family: 'Didact Gothic';
   font-weight: bold; 
+}
+
+.eraserText {
+  font-family: 'Didact Gothic';
+  font-size: 18px;
+  margin-bottom: 5rem;
 }
 
 
@@ -156,12 +169,11 @@ a:link {
 
 .cont {
     position: relative;
-    
-    margin-top: 5rem;
+    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
-    width: 533px;
-    height: 500px;
+    width: 440px;
+    height: 412px;
 }
 
 #robot {
@@ -244,6 +256,15 @@ a:link {
   width: 100%;
   }
 
+  .cont {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 533px;
+    height: 500px;
+  }
+
   }
 
   @media screen and (min-width: 576px) and (max-width: 900px) {
@@ -251,6 +272,15 @@ a:link {
     left: 20;
     top: 18%;
     width: 100%;
+  }
+
+  .cont {
+    position: relative; 
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 533px;
+    height: 500px;
   }
 
   }
