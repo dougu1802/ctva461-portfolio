@@ -109,6 +109,26 @@ a:link {
   font-weight: bold; 
 }
 
+.indexNav1 {
+  left: 20;
+  top: 50%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+
+}
+
+.indexNav2 {
+  left: 20;
+  top: 60%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+}
+
+
+
+
 .eraserText {
   font-family: 'Didact Gothic';
   font-size: 18px;
@@ -265,6 +285,23 @@ a:link {
     height: 500px;
   }
 
+  .indexNav1 {
+    left: 20;
+    top: 71%;
+    width: 100%;
+    font-family: 'Didact Gothic';
+    font-weight: bold; 
+
+  }
+
+  .indexNav2 {
+    left: 20;
+    top: 80%;
+    width: 100%;
+    font-family: 'Didact Gothic';
+    font-weight: bold; 
+  }
+
   }
 
   @media screen and (min-width: 576px) and (max-width: 900px) {
@@ -282,5 +319,22 @@ a:link {
     width: 533px;
     height: 500px;
   }
+
+  .indexNav1 {
+  left: 20;
+  top: 60%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+
+}
+
+.indexNav2 {
+  left: 20;
+  top: 70%;
+  width: 100%;
+  font-family: 'Didact Gothic';
+  font-weight: bold; 
+}
 
   }
